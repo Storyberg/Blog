@@ -1017,5 +1017,7 @@ select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="c
 }
 
 @media screen and (max-width: 480px) {
-    -webkit-text-size-adjust:none;
+    body {
+        -webkit-text-size-adjust:none;
+    }
 }
