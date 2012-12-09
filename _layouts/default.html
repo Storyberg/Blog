@@ -1,9 +1,65 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
 <head>
-	<title>{{ page.title }}</title>
+  <meta charset="utf-8">
+	<title>{{ page.title }} - Storyberg</title>
+  <meta name="author" content="Michael Dijkstra">
+  <meta name="Copyright" content="Copyright Michael Dijkstra 2012. All Rights Reserved.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Icons -->
+  <link title="iPhone4" rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/ios-114.png">
+  <link title="iPad" rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/ios-72.png">
+  <!-- Icon57x57 -->
+  <link title="iPhone3" rel="apple-touch-icon-precomposed" href="/assets/images/ios.png"><!-- 57x57 -->
+  <link title="nokia" rel="shortcut icon" href="/assets/images/ios.png">
+  <link title="Favicon" rel="shortcut icon" href="/assets/images/favicon.png"> <!-- 32x32 -->
+
+  <!-- iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- startup image for web apps - iPad - landscape (748x1024) -->
+  <link rel="apple-touch-startup-image" href="/assets/images/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+  <!-- startup image for web apps - iPad - portrait (768x1004) -->
+  <link rel="apple-touch-startup-image" href="/assets/images/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+  <!-- startup image for web apps (320x460) -->
+  <link rel="apple-touch-startup-image" href="/assets/images/iphone.png" media="screen and (max-device-width: 320px)" />
+  <!-- webpage icon -->
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/ios-114.png">
+
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css">
 </head>
 <body>
-    {{ content }}
+	<div class="outer">
+	  <div class="page">
+	    <div class="body">
+	      <div class="mod man">
+	        <div class="hd txtC">
+	          <div class="modPost">
+	            <a href="http://storyberg.com/" title="Lean Product Management App"><img src="assets/images/logoSmall.png" alt="Storyberg"></a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="page">
+	    <div class="body">
+	      {{ content }}
+	    </div>
+	  </div>
+	  <div class="page">
+	    <div class="body">
+	      <div class="mod man">
+	        <div class="ft modPost txtC">
+	          <small class="small">&copy;Storyberg</small>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+
+	  <script type="text/javascript" src="http://use.typekit.com/rns0zsd.js"></script>
+	  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</div>
 </body>
 </html>
-
