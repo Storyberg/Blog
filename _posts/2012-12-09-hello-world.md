@@ -12,7 +12,7 @@ Last week, I felt like I was saying the same thing over and over again. And I wa
 
 After a quick focus talk from [Pollenizer](http://pollenizer.com) founder [Mick Luibinskas](http://twitter.com/liubinskas), the 23 startups attending the day were allocated chairs around the room and the Startmate mentors would ask each startup why they should be chosen for the program. Each business had 10 minutes, one-on-one, to convince them to choose their startup.
 
-Each mini-interview began the same way: 
+Every interview began the same way: 
 
 > "Let's start with your one minute pitch"
 
