@@ -33,13 +33,13 @@ After a full day of pitching, my tips for the crafting your one minute pitch are
 To bring it all together, here is our one minute pitch:
 
 - Storyberg is a lean product management app
-- We help derisk innovation by making sure you're building something people want
+- We help de-risk innovation by making sure you're building something people want
 - Everyone knows about the lean startup methodology of build–measure–learn, but right now entrepreneurs either don't have time to validate what their building or get confused in a mess of data from services like KISSmetrics and Google Analytics
 - With Storyberg, in one online web app you can prioritise features, collaborate on development, release features and then we will validate your releases by allowing you to automatically track sign ups (traction) and how many users perform your key activity (engagement)
 - So your team can do what they normally do and collaborate on features. Then two weeks after they release a feature we'll come back and tell them 'When this was released, sign ups were 10 and engagement was 15, now sign ups are 15 but engagement is down to 5, maybe you want to remove that feature? Or vice-versa depending on the analytics'
 
 ## Practice your pitch
 
-It doesn't matter if your business is one day old, one week or one year old, the best way to create a great pitch is to pitch. 
+It doesn't matter if your business is one day, one week or one year old, the best way to learn how to pitch is to pitch. 
 
 So … what's your one minute pitch? Let know us on [Twitter](http://twitter.com/storyberg).
