@@ -2,25 +2,50 @@
 layout: default
 title: Blog 
 ---
+<div class="page borderB bcLight">
+  <div class="body">
+    <div class="mod man">
+      <div class="bd phl mtl">
+        <p class="small txtL"><em><strong>The Storyberg Blog:</strong> Insights on how to buld a more successful startup</em></p>
+      </div>
+    </div>
+  </div>
+</div>
 
-{% for post in site.posts %}
-  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-  {% if year >= "2012" %}
+<div class="page">
+  <div class="body">
     <div class="mod man">
-      <div class="hd">
-        <h1 class="h1 huge txtC" style="font-variant: small-caps; text-transform: lowercase;">{{ post.title }}</h1>
-        <p class="small txtC mbn"><em>Written by <a href="http://twitter.com/{{post.handle }}">{{ post.author }}</a> on {{ post.date | date_to_string }}</em></p>
+      <div class="hd txtC">
+        <div class="modPost">
+          <a href="http://storyberg.com/" title="Lean Product Management App"><img src="/assets/images/logo.png" alt="Storyberg" width="219" height="63"></a>
+        </div>
       </div>
     </div>
-    <div class="mod man">
-      <div class="bd modPost">
-          {{ post.content }}
-      </div>
-    </div>
-    <div class="mod man">
-      <div class="b modPost txtC">
-	    <img src="/assets/images/ios-72.png" alt="Storyberg" width="42" height="42">
-      </div>
-    </div>
-  {% endif %}
-{% endfor %}
+  </div>
+</div>
+
+<div class="page">
+  <div class="body">
+    {% for post in site.posts %}
+      {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+      {% if year >= "2012" %}
+        <div class="mod man">
+          <div class="hd">
+            <h1 class="h1 huge txtC"><a href="{{ post.url }}" class="underlineNone base">{{ post.title }}</a></h1>
+            <p class="small txtC mbn"><em>Written by <a href="http://twitter.com/{{post.handle }}">{{ post.author }}</a> on {{ post.date | date_to_string }}</em></p>
+          </div>
+        </div>
+        <div class="mod man">
+          <div class="bd modPost">
+              {{ post.content }}
+          </div>
+        </div>
+        <div class="mod man">
+          <div class="b modPost txtC">
+          <img src="/assets/images/ios-72.png" alt="Storyberg" width="42" height="42">
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

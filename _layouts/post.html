@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="page borderB bcLight">
+  <div class="body">
+    <div class="mod man">
+      <div class="bd phl mtl">
+        <p class="small txtL"><em><strong><a href="/">The Storyberg Blog</a></strong> &raquo; {{ page.title }}</em></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <div class="body">
+    <div class="mod man">
+      <div class="hd txtC">
+        <div class="modPost">
+          <a href="http://storyberg.com/" title="Lean Product Management App"><img src="/assets/images/logo.png" alt="Storyberg" width="219" height="63"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <div class="body">
+    <div class="mod man">
+      <div class="hd">
+        <h1 class="h1 huge txtC">{{ page.title }}</h1>
+        <p class="small txtC mbn"><em>Written by <a href="http://twitter.com/{{page.handle }}">{{ page.author }}</a> on {{ page.date | date_to_string }}</em></p>
+      </div>
+    </div>
+    <div class="mod man">
+      <div class="bd modPost">
+          {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
