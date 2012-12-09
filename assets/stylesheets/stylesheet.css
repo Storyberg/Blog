@@ -192,7 +192,10 @@ body { _text-align:center; }
 }
 .body { margin: 0 5px; }
 @media screen and (min-width: 480px) {
-    .body { margin: 0 5.55555%; }
+    .body { margin: 0 10px; }
+}
+@media screen and (min-width: 540px) {
+    .body { margin: 0 5.555555555555%; }
 }
 @media screen and (min-width: 720px) {
     .body { margin: 0 11.11111111111%; }
