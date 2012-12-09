@@ -1,5 +1,7 @@
-Heroku-Jekyll-Hello-World
-=========================
+# The Storyberg Blog
 
-A sample application for [heroku-buildpack-ruby-jekyll](https://github.com/mattmanning/heroku-buildpack-ruby-jekyll).
+## Thanks to
 
+- Jekyll
+- Heroku buildpack ruby jekyll
+- Pollenizer Foundation
