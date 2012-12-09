@@ -62,6 +62,8 @@ task :post do
     post.puts 'description: ""'
     post.puts "category: "
     post.puts "tags: []"
+    post.puts "author: \"Michael Dijkstra\""
+    post.puts "handle: \"micdijkstra\""
     post.puts "---"
   end
 end # task :post

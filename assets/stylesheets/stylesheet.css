@@ -1008,10 +1008,10 @@ select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="c
 
 
 .modPost { 
-  padding: 63px 25px !important;
+  margin: 63px 25px !important;
 }
 @media screen and (min-width: 480px) {
     .modPost { 
-      padding: 90px 40px !important;
+      margin: 90px 40px !important;
     }
 }
