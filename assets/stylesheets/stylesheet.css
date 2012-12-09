@@ -190,8 +190,8 @@ body { _text-align:center; }
     .fold > .span3of8 { width: 37.5%; }
     .fold > .span4of8 { width: 50%; }
 }
-.body { margin: 0 10px; }
-@media screen and (min-width: 320px) {
+.body { margin: 0 5px; }
+@media screen and (min-width: 480px) {
     .body { margin: 0 5.55555%; }
 }
 @media screen and (min-width: 720px) {
@@ -263,7 +263,7 @@ h2, .large {
 blockquote {
   font-size: 21px;
 	font-style: italic;
-  line-height: 2.0em;
+  line-height: 1.5em;
   margin-bottom: 1.0em;
 	text-align: center;
 }
@@ -760,6 +760,7 @@ h1, .h1 {
     font-family: "freight-sans-pro-1","freight-sans-pro-2",Helmet,Freesans,sans-serif;
 		font-variant: small-caps;		
     font-weight: 600;
+    line-height: 1.0em;
 		text-transform: lowercase;
 }
 h2, .h2 {
@@ -767,6 +768,7 @@ h2, .h2 {
 	font-family: "freight-sans-pro-1","freight-sans-pro-2",Helmet,Freesans,sans-serif;
 	font-variant: small-caps;
   font-weight: 600;
+  line-height: 1.0em;
 	text-align: center;
 	text-transform: lowercase;
 }
