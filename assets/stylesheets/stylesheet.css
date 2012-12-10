@@ -275,11 +275,20 @@ h2, .large {
     margin-bottom: 0.4375em;
 }
 blockquote {
-  font-size: 21px;
-	font-style: italic;
-  line-height: 1.5em;
-  margin-bottom: 1.0em;
-	text-align: center;
+    font-size: 21px;
+    font-style: italic;
+    line-height: 1.5em;
+    margin-bottom: 1.0em;
+    text-align: center;
+}
+pre {
+    background: rgba(250,250,251, 0.5);
+    border: 1px solid rgb(238,238,238);
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 0.75em;
+    overflow: scroll;
 }
 
 @media screen and (min-width: 720px) {
@@ -326,6 +335,12 @@ blockquote {
         line-height: 1.25em;
         margin-bottom: 1.25em;
         text-align: center;
+  }
+  pre {
+      font-size: 16px;
+      line-height: 1.3125em;
+      margin-bottom: 1.3125em;
+      padding: 0.65625em;
   }
 }
 /**
