@@ -7,7 +7,7 @@ tags: []
 author: "Michael Dijkstra"
 handle: "micdijkstra"
 ---
-Most Apps can do a number of different things but great apps generally only do one thing really well, and that one thing is what we call their 'key activity'.
+Most apps can do a number of different things but great apps generally only do one thing really well, and that one thing is what we call their 'key activity'.
 
 When you're building an app, you usually set out to solve a users problem and the exact moment where you solve their problem is where you'll find your key activity. It's the point where you provide the most value to a user and the more often you can do that, the more likely they will continue to use your app, pay for it, and tell their friends about it.
 
@@ -32,7 +32,7 @@ Finding your key activity isn't as hard as it sounds. Here are some examples for
 
 ### Community Q and A
 **Value:** Having a question answered  
-**Key metric:** Answers 
+**Key metric:** Answers  
 *If people get answers to questions then they'll ask more questions.*
 
 ### Payments
@@ -43,7 +43,7 @@ Finding your key activity isn't as hard as it sounds. Here are some examples for
 ### Games
 **Value:** Achievement  
 **Key metric:** Level up  
-*When users level up they're achieving something and they'll be motivated to continue to achievement more.*
+*When users level up they're achieving something and they'll be motivated to continue to achieve more.*
 
 ### Retail
 **Value:** Revenue  
