@@ -1,15 +1,19 @@
 ---
 layout: post
-title: "Find your one key activity"
+title: "Find your key activity"
 description: ""
 category: 
 tags: []
 author: "Michael Dijkstra"
 handle: "micdijkstra"
 ---
-Most apps can do a number of different things but great apps generally do one thing really well, and that one thing is what we call their 'key activity'.
+The cafe on the left really should be busier. They have friendly staff, music playing in the background and a place to sit while you wait. The cafe on right is filled with pretentious staff, there's no music playing and you stand in the gutter while you wait. But they are packed. And it's because of one thing: they make really good coffee.
 
-When you're building an app you usually set out to solve a users problem and the exact moment where you solve their problem is where you'll find your key activity. It's the point where you provide the most value to a user and the more often you can do that, the more likely they will continue to use your app, pay for it, and tell their friends about it.
+When you want a coffee, you want the best coffee on offer. Nothing else matters.
+
+Too often I see apps that do a number of different things and developers start to worry about insignificant features or button colours when what they should be doing is focusing on doing one thing really well.
+
+The key activity of any app is the point where the app provides the most value to the user. Generally this is the exact point where their problem is solved, and the more often you can solve their problem, the more likely they will continue to use your app, pay for it, and tell their friends about it.
 
 ## Examples of key activities
 
