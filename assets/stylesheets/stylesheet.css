@@ -396,19 +396,20 @@ pre {
 .figure {
     border: 0;
     display: block;
-    margin: 21px 0;
+    margin: 21px -20px;
     padding: 0;
     position: relative;
 }
 @media screen and (min-width: 480px) {
     .figure {
-        margin: 42px 0;
+        margin: 42px -40px;
     }
 }
 .figure img {
     display: block;
     height: auto;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 /**
